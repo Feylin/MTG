@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsApp", "CardsApp\CardsApp.csproj", "{F8B4210A-9DCC-47F3-9C1D-E1E2EE9AFADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{39C90CF0-9251-4AA1-A282-67E830A6ACCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BusinessEntities\BusinessEntities.csproj", "{5D8334AC-B265-4F08-8622-BA88FC6D5712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{81074634-FD6D-4D5D-BDA7-290A17C70B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{A4A9C17D-AA6E-4AFC-97D6-69699B264B83}"
+	ProjectSection(SolutionItems) = preProject
+		CardsApp\bin\Debug\card_rarity.txt = CardsApp\bin\Debug\card_rarity.txt
+		CardsApp\bin\Debug\card_sets.txt = CardsApp\bin\Debug\card_sets.txt
+		CardsApp\bin\Debug\Elsa.JPG = CardsApp\bin\Debug\Elsa.JPG
+		CardsApp\bin\Debug\frozen.ico = CardsApp\bin\Debug\frozen.ico
+		CardsApp\bin\Debug\letItLoad.jpg = CardsApp\bin\Debug\letItLoad.jpg
+		CardsApp\bin\Debug\magic_cards.txt = CardsApp\bin\Debug\magic_cards.txt
+		CardsApp\bin\Debug\mtg type.txt = CardsApp\bin\Debug\mtg type.txt
+		CardsApp\mtg_icon.ico = CardsApp\mtg_icon.ico
+		CardsApp\bin\Debug\no_connection.jpg = CardsApp\bin\Debug\no_connection.jpg
+		CardsApp\bin\Debug\refresh_2.png = CardsApp\bin\Debug\refresh_2.png
+		CardsApp\bin\Debug\refresh_3.png = CardsApp\bin\Debug\refresh_3.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicModel", "MagicModel\MagicModel.csproj", "{17BD712D-E8F7-4791-B410-F1BB6D559A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{D75304C0-4898-4015-8F2C-0667862B2E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Card Images", "Card Images", "{7A2F2219-32E8-4719-BF11-C628BE04235A}"
+	ProjectSection(SolutionItems) = preProject
+		CardsApp\bin\Debug\Card Images\Abandon Hope.full.jpg = CardsApp\bin\Debug\Card Images\Abandon Hope.full.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://feylin.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessEntities\\BusinessEntities.csproj
+		SccProjectName1 = BusinessEntities
+		SccLocalPath1 = BusinessEntities
+		SccProjectUniqueName2 = BusinessLogic\\BusinessLogic.csproj
+		SccProjectName2 = BusinessLogic
+		SccLocalPath2 = BusinessLogic
+		SccProjectUniqueName3 = CardsApp\\CardsApp.csproj
+		SccProjectName3 = CardsApp
+		SccLocalPath3 = CardsApp
+		SccProjectUniqueName4 = DataAccess\\DataAccess.csproj
+		SccProjectName4 = DataAccess
+		SccLocalPath4 = DataAccess
+		SccProjectUniqueName5 = MagicModel\\MagicModel.csproj
+		SccProjectName5 = MagicModel
+		SccLocalPath5 = MagicModel
+		SccProjectUniqueName6 = TestConsole\\TestConsole.csproj
+		SccProjectName6 = TestConsole
+		SccLocalPath6 = TestConsole
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B4210A-9DCC-47F3-9C1D-E1E2EE9AFADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B4210A-9DCC-47F3-9C1D-E1E2EE9AFADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B4210A-9DCC-47F3-9C1D-E1E2EE9AFADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B4210A-9DCC-47F3-9C1D-E1E2EE9AFADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C90CF0-9251-4AA1-A282-67E830A6ACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C90CF0-9251-4AA1-A282-67E830A6ACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C90CF0-9251-4AA1-A282-67E830A6ACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C90CF0-9251-4AA1-A282-67E830A6ACCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8334AC-B265-4F08-8622-BA88FC6D5712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8334AC-B265-4F08-8622-BA88FC6D5712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8334AC-B265-4F08-8622-BA88FC6D5712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8334AC-B265-4F08-8622-BA88FC6D5712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81074634-FD6D-4D5D-BDA7-290A17C70B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81074634-FD6D-4D5D-BDA7-290A17C70B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81074634-FD6D-4D5D-BDA7-290A17C70B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81074634-FD6D-4D5D-BDA7-290A17C70B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BD712D-E8F7-4791-B410-F1BB6D559A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BD712D-E8F7-4791-B410-F1BB6D559A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BD712D-E8F7-4791-B410-F1BB6D559A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BD712D-E8F7-4791-B410-F1BB6D559A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75304C0-4898-4015-8F2C-0667862B2E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75304C0-4898-4015-8F2C-0667862B2E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75304C0-4898-4015-8F2C-0667862B2E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75304C0-4898-4015-8F2C-0667862B2E45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
